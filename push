@@ -16,7 +16,7 @@ gScriptVersion=1.0
 #
 # GitHub branch to pull data from (master or Beta).
 #
-gGitHubBranch="master"
+gGitHubBranch="main"
 
 #
 # Get user id
