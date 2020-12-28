@@ -21,6 +21,10 @@ int main()
     std::cout << arp[1]->year << std::endl;
     // a pointer to a pointer; name of an array -> address of the first ele = pointer to a pointer
     const antarctica_years_end ** ppa = arp;  
+    // std::cout << "aaa" << std::endl;
+    // std::cout << (int*)ppa << std::endl;
+    // std::cout << (int*)(&s01) << std::endl;   different
+    // std::cout << "aaa" << std::endl;
     auto ppb = arp; // c++ automatic type deduction
     std::cout << (*ppa)->year << std::endl;
     std::cout << (*(ppa+1))->year << std::endl;

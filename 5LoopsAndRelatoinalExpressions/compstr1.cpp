@@ -1,0 +1,17 @@
+// Listing 5.11
+// compstr1.cpp -- comparing strings using arrays
+#include <iostream>
+#include <cstring>       // prototype for strcmp()
+int main()
+{
+    using namespace std;
+    char word[5] = "?ate";
+    // strcmp(a, b) != 0 if a and b are not the same
+    for (char ch = 'a'; strcmp(word, "mate"); ch++)
+    {
+        cout << word << endl;
+        word[0] = ch;
+    }
+    cout << "After loop ends, word is " << word << endl;
+    return 0;
+}

@@ -10,6 +10,7 @@ int main()
 
     name = getname();    // assign address of string to name
     cout << name << " at " << (int*) name << "\n";
+    // cout << name << " at " << name << "\n";   // will print out the value
     delete [] name;      // memory freed
 
     name = getname();    // reuse freed memory 
