@@ -59,5 +59,7 @@ int main()
     }
     delete [] pd1;
     delete [] pd3;
+    // delete[] operator, first calls the appropriate destructors for each element in the array 
+    // (if these are of a class type), and then calls an array deallocation function.
 
 }
