@@ -1,6 +1,6 @@
 // carrots.cpp -- food processing program
 // uses and displays a variable
-
+// compile command: g++ carrots.cpp --std=c++11
 #include <iostream>
 
 int main()
